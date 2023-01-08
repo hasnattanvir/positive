@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@media only screen and (min-width: 1500px) {
+  .container {
+    max-width: 1585px;
+  }
+}
+
+.sectionpadding {
+  padding-top: 80px;
+}
+
+.breakingbtn .btn {
+  width: 600px;
+  max-width: 100%;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  background-color: #d02689;
+  display: block;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .breakingbtn .btn {
+    font-size: 25px;
+    padding: 16px 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .breakingbtn .btn {
+    font-size: 36px;
+    padding: 24px 0px;
+  }
+}
+
+.breakingbtn .btn:hover {
+  color: #fff;
+  background-color: #d02689;
+}
+
+.bgcontrol {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.productupper {
+  padding-top: 22px;
+  padding-bottom: 180px;
+}
+
+.productupper .tbox1 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .productupper .tbox1 {
+    width: 58%;
+  }
+}
+
+.productupper .tbox1 .cardbox {
+  padding: 14px 6px;
+  width: 100%;
+}
+
+.productupper .tbox1 .cardbox .innerbox {
+  background-color: #f2f1ff;
+  width: 100%;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.productupper .tbox1 .cardbox .nobg {
+  background-color: unset;
+}
+
+.productupper .tbox1 .cardbox .nobg p {
+  font-size: 20px;
+}
+
+.productupper .tbox1 .cardbox .lightgreen {
+  background-color: #fff7e4;
+}
+
+.productupper .tbox1 .cardbox h6 {
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  font-weight: 600;
+}
+
+.productupper .tbox1 .cardbox p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.productupper .tbox1 .cardbox .imgbox {
+  padding-top: 50px;
+}
+
+.productupper .tbox1 .cardbox img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  .productupper .tbox1 .cardbox {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .productupper .tbox1 .cardbox {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .productupper .tbox1 .cardbox {
+    width: 33.33333%;
+  }
+  .productupper .tbox1 .cardbox .innerbox {
+    padding: 20px;
+  }
+  .productupper .tbox1 .cardbox h1 {
+    font-size: 40px;
+  }
+}
+
+.productupper .tbox2 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .productupper .tbox2 {
+    width: 38%;
+  }
+}
+
+.productupper .tbox2 .cardbox {
+  padding: 14px 6px;
+  width: 100%;
+}
+
+.productupper .tbox2 .cardbox .innerbox {
+  background-color: #f2f1ff;
+  width: 100%;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.productupper .tbox2 .cardbox .lightgreen {
+  background-color: #fff7e4;
+}
+
+.productupper .tbox2 .cardbox h6 {
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  font-weight: 600;
+}
+
+.productupper .tbox2 .cardbox p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.productupper .tbox2 .cardbox .imgbox {
+  padding-top: 50px;
+}
+
+.productupper .tbox2 .cardbox img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  .productupper .tbox2 .cardbox {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .productupper .tbox2 .cardbox {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .productupper .tbox2 .cardbox {
+    width: 50%;
+  }
+  .productupper .tbox2 .cardbox .innerbox {
+    padding: 20px;
+  }
+  .productupper .tbox2 .cardbox h1 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

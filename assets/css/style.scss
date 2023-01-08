@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@mixin minwidth($width){
+    @media only screen and (min-width:$width){
+        @content;
+    }
+}
+
+.container{
+    @include minwidth(1500px){
+        max-width: 1585px;
+    }
+}
+
+$poppins:'Poppins', sans-serif;
+$wt_thin:100;
+$wt_exlight:200;
+$wt_light:300;
+$wt_regular:400;
+$wt_medium:500;
+$wt_semibold:600;
+$wt_bold:700;
+$pinkcolor:#d02689;
+$white:#fff;
+
+.sectionpadding{
+    padding-top: 80px;
+}
+.breakingbtn{
+    
+    .btn{
+        width:600px;
+        max-width: 100%;
+        font-size: 22px;
+        font-family: $poppins;
+        background-color: $pinkcolor;
+        display: block;
+        color:$white;
+        border-radius: 2px;
+        text-align: center;
+        padding: 10px 0px;
+        margin: 0px;
+        font-weight: bold;
+        @include minwidth(768px){
+            font-size: 25px;
+            padding: 16px 0px;
+
+        }
+        @include minwidth(992px){
+            font-size: 36px;
+            padding: 24px 0px;
+        }
+
+        &:hover{
+            color: #fff;
+            background-color: $pinkcolor;
+        }
+    }
+    
+}
+
+@mixin bgcontrol{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bgcontrol{
+    @include bgcontrol();
+}
+
+
+.productupper{
+    padding-top: 22px;
+    padding-bottom: 180px;
+    
+    .tbox1{
+        width: 100%;
+        @include minwidth(1200px){
+            width: 58%;
+        }
+        .cardbox{
+            padding: 14px 6px;
+            width: 100%;
+           
+            .innerbox{
+                background-color: #f2f1ff;
+                width: 100%;            
+                padding: 10px;
+                font-family: $poppins;
+                height: 100%;
+            }
+
+            .nobg{
+                background-color: unset;
+                p{
+                    font-size: 20px;
+                }
+            }
+            .lightgreen{
+                background-color: #fff7e4;
+            }
+
+
+            h6{
+                font-size: 22px;
+                padding: 0px;
+                margin: 0px;
+                color: #000;
+                font-weight: $wt_semibold;
+            }
+            p{
+                padding: 0px;
+                margin: 0px;
+                font-size: 16px;
+                font-weight: $wt_medium;
+            }
+            .imgbox{
+                padding-top: 50px;
+            }
+            img{
+                // width: 240px;
+                max-width: 100%;
+            }
+            @include minwidth(576px){
+                width: 50%;
+            }
+            @include minwidth(768px){
+                width: 33.33333%;
+            }
+            @include minwidth(1200px){
+                width: 33.33333%;
+                .innerbox{
+                    padding: 20px;
+                }
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+
+    }
+
+
+    .tbox2{
+        width: 100%;
+        @include minwidth(1200px){
+            width: 38%;
+        }
+
+        .cardbox{
+            padding: 14px 6px;
+            width: 100%;
+           
+            .innerbox{
+                background-color: #f2f1ff;
+                width: 100%;            
+                padding: 10px;
+                font-family: $poppins;
+                height: 100%;
+            }
+            .lightgreen{
+                background-color: #fff7e4;
+            }
+            h6{
+                font-size: 22px;
+                padding: 0px;
+                margin: 0px;
+                color: #000;
+                font-weight: $wt_semibold;
+            }
+            p{
+                padding: 0px;
+                margin: 0px;
+                font-size: 16px;
+                font-weight: $wt_medium;
+            }
+            .imgbox{
+                padding-top: 50px;
+            }
+            img{
+                // width: 240px;
+                max-width: 100%;
+            }
+            @include minwidth(576px){
+                width: 50%;
+            }
+
+            @include minwidth(768px){
+                width: 33.33333%;
+            }
+            
+            @include minwidth(1200px){
+                width: 50%;
+                .innerbox{
+                    padding: 20px;
+                }
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+
